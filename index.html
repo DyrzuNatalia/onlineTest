@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Тест на javascript</title>
+
+<body>
+
+	<div>
+		
+		<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="result"></p>
+		<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="question"></p>
+		
+
+		<button onclick="check(1)" class="btn" id="option1"></button>
+
+		<button onclick="check(2)" class="btn" id="option2"></button>
+
+		<button onclick="check(3)" class="btn" id="option3"></button>
+
+		<button onclick="check(4)" class="btn" id="option4"></button>
+	</div><br>
+	<div>
+		<button id="start" class="btn" onclick="check(0)">Начать тест</button>
+		
+	</div><br><br>
+
+	<style>
+		body {
+			font-family: verdana;
+			color: #444;
+		}
+
+		#option1,
+		#option2,
+		#option3,
+		#option4 {
+			display: none;
+			margin-bottom: 10px;
+		}
+
+		.btn {
+			text-decoration: none;
+			font-size: 20px;
+			margin-right: 20px;
+			color: #fff;
+			background: #3C8FB7;
+			padding: 4px 8px;
+			border: 0;
+			cursor: pointer;
+		}
+	</style>
+	<script src="test.js"></script>
+</body>
+
+</html>
